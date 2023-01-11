@@ -1,0 +1,196 @@
+
+body{
+    
+   /* height: 3000px;*/
+}
+
+/* ----------------------------------start header-----------------------*/
+.header{
+    background-color: rgba(3, 15, 8, 0.836);
+    color: white;
+    height: 50px;
+    line-height: 50px;/* توسيط النص */
+}
+
+.header a{
+    float: right;
+    margin-top: 5px;
+    height: 60%;
+}
+
+/* ------------------------------end header--------------------*/
+
+
+/* ---------------------start slider-----------------------*/
+.carousel img{
+    width: 100px;
+    height: 450px;
+}
+.carousel-indicators li {
+height: 10px;
+background-color: brown;
+   }
+
+.overlay{/* الطبقة الشفافة*/
+    width: 100%;
+    height: 100%;
+    background-color: rgba(78, 190, 143, 0.116);
+    position: absolute;
+    z-index: 1;
+}
+   /* ----------------------------end slider---------------------------*/
+
+
+   /* -------------------------------start feutures-------------------------*/
+   .feutures{
+    margin: 75px;
+   }
+
+   .feutures i{
+    width: 90px;
+    height: 90px;
+    background-color: rgba(3, 15, 8, 0.836);
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+
+   }
+
+   .feutures h3{
+    display: inline-block;/*عشان ياخذالحجم ع قد المحتوى*/
+    color: rgba(3, 15, 8, 0.836);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.feutures h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+   /*----------------------------- end feutures------------------------*/
+
+
+   /* ---------------------start our team ----------------------------*/
+   .our-team{
+    background-color: rgb(239, 253, 247);
+    padding: 30px;
+    border-bottom: 3px solid cadetblue;
+   }
+   /* ------------------------end our team --------------------------*/
+
+
+   /* --------------------------start statistic--------------------*/
+    .statistic {
+        margin-top: 100px;
+        width:100%; 
+        background-image: url('40.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    .statistic .dverlay{
+        padding-top: 170px;
+        padding-bottom: 170px;
+        padding-bottom: 70px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(15, 15, 15, 0.555);
+        
+    }
+
+    .statistic .dverlay h3{
+        color: white;
+        font-size: 25px;
+    }
+
+    .statistic .dverlay p{
+        color: white;
+        font-size: 70px;
+    }
+   
+   /* --------------------------end statistic--------------------*/
+
+
+    /* --------------------------start our-customers--------------------*/
+   .our-customers{
+    background-color: #eee;
+    line-height: 200px;
+    border-bottom: 3px solid cadetblue;
+   }
+   
+   /* --------------------------end our-customers--------------------*/
+
+
+   /* --------------------------start recent-news--------------------*/
+.recent-news .btn-danger{
+    background-color: rgba(3, 15, 8, 0.836);
+    border-color: cadetblue;
+}
+
+.recent-news .btn-danger:hover{
+    background-color: rgb(27, 60, 61);
+    border-color: cadetblue;
+}
+   /* --------------------------end our-customers--------------------*/
+
+
+   /* --------------------------start footer--------------------*/
+   footer{
+    background-color: rgba(3, 15, 8, 0.836);
+    padding: 30px;
+   }
+
+   footer p{
+    color: white;
+   }
+
+   footer h2{
+    color: white;
+   }
+
+   footer a{
+    color: white;
+   }
+
+   footer a:hover{
+    color: black;
+   }
+
+   footer ul li{
+    list-style: none;
+   }
+   /* --------------------------end footer--------------------*/
+
+
+
+
+
+
+
+
+   /*------------------------------start page blog-------------------------*/
+   .jumbotron{
+    padding: 20px;
+    display: flex;/*مرن*/
+    justify-content: space-between;
+
+   }
+
+   .jumbotron .blog-info{
+    flex: 2;
+   }
+
+   .jumbotron .blog-imag{
+    flex: 1;
+   }
+   /*------------------------------end page blog-------------------------*/
+
+   /*-----------------------start blog-details------------------------------*/
+   .blog-details{
+    line-height: 2; /*تباعد الاسطر*/
+   }
+   /*-----------------------end blog-details------------------------------*/
